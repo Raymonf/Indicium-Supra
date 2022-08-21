@@ -47,6 +47,8 @@ SOFTWARE.
 //
 // Logging
 // 
+#define FMT_HEADER_ONLY
+#include <spdlog/fmt/fmt.h>
 #include <spdlog/spdlog.h>
 #include <spdlog/sinks/basic_file_sink.h>
 
